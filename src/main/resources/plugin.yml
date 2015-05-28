@@ -1,3 +1,10 @@
 name: Townvalds
 main: com.linuxmasterrace.townvalds.Townvalds
 version: 0.0.1
+
+commands:
+  townvalds:
+    description: Returns the plugin version
+    usage: /townvalds
+    permission: townvalds.version
+    permission-message: You don't have permission!
