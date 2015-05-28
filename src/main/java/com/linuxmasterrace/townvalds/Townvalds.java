@@ -25,7 +25,7 @@ public class Townvalds extends JavaPlugin {
 				if (args[0].equalsIgnoreCase("version")) {
 					getLogger().info("Townvalds version " + this.getDescription().getVersion());
 				}
-				else {
+				else { 
 					sender.sendMessage("Invalid argument");
 				}
 			}
