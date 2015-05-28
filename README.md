@@ -14,7 +14,7 @@ Since there were copyright issues, you're now required to build Spigot yourself.
 
 ```java -jar BuildTools.jar --rev 1.8.6```
 
-It will download and compile Spigot for you. Now in Eclipse, right click on the just cloned project, and click on "properties". Select "Java Build Path" from the left pane. Click on "Add external JARs...". Now select the just compiled Spigot jar. Click ok and you're done!
+It will download and compile Spigot for you. Now in Eclipse, right click on the just cloned project, and click on "properties". Select "Java Build Path" from the left pane. Click on "Add external JARs...". Now select the just compiled Spigot jar AND Craftbukkit jar. Click ok and you're done!
 
 ## Useful guide(s)
 [Create a basic Bukkit plugin](http://wiki.bukkit.org/Plugin_Tutorial#onEnable.28.29_and_onDisable.28.29)
