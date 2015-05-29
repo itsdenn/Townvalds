@@ -3,4 +3,18 @@
   <groupId>com.linuxmasterrace</groupId>
   <artifactId>Townvalds</artifactId>
   <version>0.0.1</version>
+  
+  <repositories>
+    <repository>
+      <id>spigot-repo</id>
+      <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+    </repository>
+  </repositories>
+  <dependencies>
+	  <dependency>
+	      <groupId>org.spigotmc</groupId>
+	      <artifactId>spigot-api</artifactId>
+	      <version>1.8.6-R0.1-SNAPSHOT</version>
+	  </dependency>
+  </dependencies>
 </project>
